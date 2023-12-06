@@ -1,9 +1,12 @@
 import LoginInit from "./screens/loginInit/loginInit";
+import HomePrincipal from "./screens/homePrincipal/homePrincipal";
+
+import './AppCss.css'
 
 function App() {
   return (
     <div className="App">
-      <LoginInit/>
+      <HomePrincipal/>
     </div>
   );
 }

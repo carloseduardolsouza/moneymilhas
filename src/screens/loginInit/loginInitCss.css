@@ -5,7 +5,6 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    color: white;
 }
 
 .logo {
@@ -39,7 +38,7 @@
     box-shadow: 0 0 10px black;
 }
 
-h1 {
+.h1 {
     font-family: 'Rubik', sans-serif;
     margin-top: 30px;
     margin-bottom: 50px;
@@ -67,7 +66,7 @@ h1 {
     position: relative;
 }
 
-button {
+.button {
     width: 48%;
     height: 40px;
     padding: 10px;

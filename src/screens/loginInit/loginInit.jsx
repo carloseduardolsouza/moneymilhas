@@ -9,7 +9,7 @@ const Login = () => {
         <div className='body'>
             <img className='logo' src={Logo} alt='Logo Money Milhas'/>
             <div className='boxLogin'>
-                <h1>Login</h1>
+                <h1 className='h1'>Login</h1>
                 <form className='label'>
                     <div>
                         <img src={iconEmail} alt="iconEmail" className='icon'/>
@@ -26,11 +26,11 @@ const Login = () => {
                     </div>
 
                     <div>
-                        <button className='submit'
+                        <button className='button'
                         type="submit"
                         style={{background: '#FFB23F'}}
                         >Entrar</button>
-                        <button className='fazerCadastro'>Fazer cadastro</button>
+                        <button className='button'>Cadastrar</button>
                     </div>
                 </form>
                 <div className='entrarComOutro'>
