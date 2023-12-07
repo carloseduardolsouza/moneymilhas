@@ -1,10 +1,10 @@
-import './loginInitCss.css';
-import Logo from '../../assets/MoneyMilhas.svg'
-import iconPassword from '../../assets/password.svg'
-import iconEmail from '../../assets/email.svg'
-import iconGoogle from '../../assets/google-icon-logo.svg'
+import './Login_inicial_style.css';
+import Logo from '../../assets/Logo_moneyMilhas.svg'
+import iconPassword from '../../assets/icon_senha.svg'
+import iconEmail from '../../assets/icon_email.svg'
+import iconGoogle from '../../assets/Logo_google.svg'
 
-const Login = () => {
+const Login_inicial = () => {
     return ( 
         <div className='body'>
             <img className='logo' src={Logo} alt='Logo Money Milhas'/>
@@ -44,4 +44,4 @@ const Login = () => {
      );
 }
 
-export default Login;
+export default Login_inicial;
